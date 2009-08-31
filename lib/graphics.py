@@ -18,6 +18,7 @@ class Blower (GraphicsBase):
     imageHeight = 85
     blowerManButtom2Fix = 16
     blowerManLeft2Fix = 3
+    blowerGunFix2End = 52
     def __init__ (self,game):
         GraphicsBase.__init__ (self,game)
         self.location = pygame.Rect (0,0,Blower.imageWidth,Blower.imageHeight);
@@ -46,10 +47,12 @@ class Blower (GraphicsBase):
                 mouseX - self.location.centerx + self.blowerManLeft2Fix)
     
         # if we are shooting, create new airball
-        airballLocation = pygame.Rect (0,0,0,0)
-        airballLocation.left = 2
-        newAirball = Airball (self.game, airballLocation, self.angle)
-        self.game.airballs.append (newAirball)
+        if self.shoot == True:
+            airballCenter = ( self.location.centerx + self.blowerManLeft2Fix + ((self.blowerGunFix2End+10)*math.cos(self.angle)) ,\
+                                self.location.bottom - self.blowerManButtom2Fix - ((self.blowerGunFix2End+10)*math.sin(self.angle)) )
+            newAirball = Airball (self.game, airballCenter, self.angle)
+            self.game.airballs.append (newAirball)
+            self.shoot = False
 
         # draw the blower
         self.image.fill ((0,0,0,0))
@@ -60,14 +63,16 @@ class Blower (GraphicsBase):
         self.image.blit (rotatedGun, rotatedRect)
         
 class Airball (GraphicsBase):
-    def __init__ (self, game, location, angle):
+    def __init__ (self, game, centerLoc, angle):
         GraphicsBase.__init__ (self,game)
-        self.location = location
         self.angle = angle
+        self.image = pygame.transform.rotozoom (self.game.res.airball, math.degrees(self.angle), 1)
+        self.location = pygame.Rect (0, 0, self.image.get_width (), self.image.get_height ())
+        self.location.center = centerLoc
         self.dead = False
-        self.image = pygame.transform.rotozoom (self.game.res.airball, self.angle, 1)
     def think (self, time):
-        pass
+        self.location.move_ip (math.cos(self.angle)*self.game.res.cfg.airballVelocity,\
+            -math.sin(self.angle)*self.game.res.cfg.airballVelocity)
 
 class Feather (GraphicsBase):
     def __init__ (self,game):

@@ -9,7 +9,8 @@ class Config:
         self.screenWidth = 640
         self.screenHeight = 480
        
-        self.blowerVelocity = 0.5
+        self.blowerVelocity = 0.3
+        self.airballVelocity = 5
 
         #round length is (base + level * multiplier) in seconds
         self.roundlengthBase = 12.0 
