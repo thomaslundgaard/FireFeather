@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
 import pygame
+from graphics import Blower
 
 class Game:
     def __init__(self, level, resources):
@@ -29,10 +30,25 @@ class Game:
             for effect in self.effects:
                 effect.think(frametime)
             self.effects = [effect for effect in self.effects if not effect.dead]
-            
-
-
-
-
-            
+    def handleInput(self):
+        for event in pygame.event.get():
+            if event.type == QUIT:
+                self.quit = True
+                return
+            elif event.type == KEYDOWN:
+                if event.key == K_ESCAPE:
+                    self.quit = True
+                    return
+                else:
+                    if self.res.cfg.keyLeft == event.key:
+                        self.blower.direction = Blower.LEFT #TODO: Fix
+                    elif self.res.cfg.keyRight == event.key:
+                        self.blower.direction = Blower.RIGHT  #TODO: Fix
+            elif event.type == KEYUP:
+                if self.res.cfg.keyLeft == event.key:
+                    if self.blower.direction == Blower.LEFT:
+                        self.blower.direction = Blower.STOP
+                if self.res.cfg.keyRight == event.key:
+                    if self.blower.direction == Blower.RIGHT:
+                        self.blower.direction = Blower.STOP
 
