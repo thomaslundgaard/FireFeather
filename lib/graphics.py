@@ -78,7 +78,22 @@ class Feather (GraphicsBase):
     def __init__ (self,game):
         GraphicsBase.__init__ (self,game)
         self.dead = False
-        self.location = pygame.Rect (self.game.res.cfg.screenWidth/2, self.game.res.cfg.screenHeight/2)
+        self.game = game
+        self.image = self.game.res.feather
+        self.location = self.image.get_rect()
+        self.location.center = (self.game.res.cfg.screenWidth/2, self.game.res.cfg.screenHeight/2)
+        self.velX = 0.0
+        self.velY = 0.0
+        self.angle = 0.0
+    def think(self,time):
+        accelX = -self.velX*self.game.res.cfg.featherDragX
+        self.velX += accelX
+
+        accelY = -self.velY*self.game.res.cfg.featherDragY + self.game.res.cfg.featherGForce
+        self.velY += accelY
+
+        self.location.move_ip(self.velX * time, self.velY * time)
+
 
 class Fireball (GraphicsBase):
     def __init__ (self,game,posX,posY,vel):
@@ -89,7 +104,7 @@ class Fireball (GraphicsBase):
         self.location = pygame.Rect (self.game.res.cfg.screenWidth/2, self.game.res.cfg.screenHeight/2,0,0)
         self.location.center = (posX, posY)
         self.velocity = vel
-        self.rotationspeed = (random.random() - 1.0) * 5
+        self.rotationspeed = (random.random() - 0.5) * 10
         self.angle = 0.0
     def think(self,time):
         self.location.move_ip(0,self.velocity*time)
