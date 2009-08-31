@@ -14,15 +14,14 @@ class Spawnengine:
                 self.game.level*self.game.res.cfg.roundlengthMultiplier)*1000 #roundlength in ms
         
         #Balls spawn randomly in a timeframe with three balls
-        timeframe = roundlength / (balls / 3)
+        timeframe =  roundlength / balls 
         
         random.seed()
         framestart = starttime
         while balls > 0:
             frameend = framestart + timeframe
-            for i in range(3):
-                balls -= 1
-                self.spawnqueue.append(random.randint(framestart,frameend))
+            balls -= 1
+            self.spawnqueue.append(random.randint(framestart,frameend))
             framestart += timeframe
 
     def think(self,time):
