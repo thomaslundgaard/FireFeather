@@ -19,7 +19,7 @@ class Config:
         self.ballsBase = 10
         self.ballsMultiplier = 2
         #ball velocity
-        self.ballsVelBase = 1.0
-        self.ballsVelGain = 0.4
-        self.ballsVelLevelBoost = 0.2
+        self.ballsVelBase = 0.3
+        self.ballsVelGain = 0.1
+        self.ballsVelLevelBoost = 0.05
     

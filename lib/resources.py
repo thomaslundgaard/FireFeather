@@ -16,3 +16,4 @@ class Resources:
         self.blowerMan = pygame.image.load (os.path.join ("gfx", "blowerMan.png"))
         self.blowerGun = pygame.image.load (os.path.join ("gfx", "blowerGun.png"))
         self.background = pygame.image.load(os.path.join ('gfx','background.png'))
+        self.fireball = pygame.image.load(os.path.join('gfx','fireball.png'))
