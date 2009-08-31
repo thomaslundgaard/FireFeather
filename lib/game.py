@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import pygame
 from graphics import Blower
@@ -37,6 +38,11 @@ class Game:
             # Delete dead enemies
             self.enemies = [enemy for enemy in self.enemies if not enemy.dead]
 
+            for airball in self.airballs:
+                airball.think(frametime)
+            # Delete dead airballs
+            self.airballs = [airball for airball in self.airballs if not airball.dead]
+            
             for effect in self.effects:
                 effect.think(frametime)
             self.effects = [effect for effect in self.effects if not effect.dead]
@@ -45,8 +51,8 @@ class Game:
             for enemy in self.enemies:
                 enemy.draw()
             self.blower.draw()
-            for air in self.airballs:
-                air.draw()
+            for airball in self.airballs:
+                airball.draw()
             for effect in self.effects:
                 effect.draw()
 

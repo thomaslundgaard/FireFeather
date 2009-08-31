@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import pygame
+from pygame.locals import *
 import os
 import time
-from pygame.locals import *
 
 import resources
 from game import Game
@@ -31,7 +31,7 @@ class Main:
         self.res.screen.blit (splashImage, (0,0))
         pygame.display.flip ()
         self.res.load ()
-        time.sleep(1)
+        #time.sleep(1)
         
     def menu (self):
         while True:
