@@ -2,6 +2,7 @@
 
 import pygame
 from graphics import Blower
+from spawnengine import Spawnengine
 
 class Game:
     def __init__(self, level, resources):
@@ -14,6 +15,8 @@ class Game:
         self.feather = None #TODO
         self.blower = None #TODO
         self.clock = pygame.time.Clock()
+
+        self.spawner = Spawnengine(self)
     def run(self):
         while not self.quit:
             frametime = float(self.clock.tick(90)) #maxfps
