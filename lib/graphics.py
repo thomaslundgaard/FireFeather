@@ -2,6 +2,7 @@
  
 import pygame
 import math
+import random
 
 class GraphicsBase:
     def __init__ (self, game):
@@ -78,10 +79,24 @@ class Fireball (GraphicsBase):
     def __init__ (self,game,posX,posY,vel):
         GraphicsBase.__init__ (self,game)
         self.dead = False
-        self.image = pygame.Surface((10,10)) #TODO
+        self.game = game
+        self.image = self.game.res.fireball
         self.location = pygame.Rect (self.game.res.cfg.screenWidth/2, self.game.res.cfg.screenHeight/2,0,0)
+        self.location.center = (posX, posY)
+        self.velocity = vel
+        self.rotationspeed = (random.random() - 1.0) * 5
+        self.angle = 0.0
     def think(self,time):
-        pass #TODO
+        self.location.move_ip(0,self.velocity*time)
+        oldcenter = self.location.center
+        self.angle += self.rotationspeed
+        while self.angle > 360:
+            self.angle -= 360
+        while self.angle < 0:
+            self.angle += 360
+        self.image = pygame.transform.rotozoom(self.game.res.fireball,self.angle,1)
+        self.location = self.image.get_rect()
+        self.location.center = oldcenter
 
 class BottomFire (GraphicsBase):
     def __init__ (self,game):

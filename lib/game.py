@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import pygame
+import sys
 from graphics import Blower
 from spawnengine import Spawnengine
 from pygame.locals import *
@@ -60,9 +61,7 @@ class Game:
     def handleInput(self):
         for event in pygame.event.get():
             if event.type == QUIT:
-                print "quit"
-                self.quit = True
-                return
+                sys.exit(0)
             elif event.type == KEYDOWN:
                 if event.key == K_ESCAPE:
                     self.quit = True

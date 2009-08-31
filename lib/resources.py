@@ -22,3 +22,5 @@ class Resources:
         self.airball = self.airball.convert_alpha ()
         self.background = pygame.image.load(os.path.join ('gfx','background.png'))
         self.background = self.background.convert ()
+        self.fireball = pygame.image.load(os.path.join('gfx','fireball.png'))
+        self.fireball = self.fireball.convert_alpha ()
