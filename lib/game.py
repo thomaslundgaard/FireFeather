@@ -9,6 +9,7 @@ class Game:
         self.level = level
         self.res = resources
         self.enemies = []
+        self.airballs = []
         self.effects = []
         self.feather = None #TODO
         self.blower = None #TODO
@@ -17,19 +18,31 @@ class Game:
         while not self.quit:
             frametime = float(self.clock.tick(90)) #maxfps
             
-            self.res.screen.blit(self.res.background, (0,0)) #Clear screen
+            # Clear screen
+            self.res.screen.blit(self.res.background, (0,0))
 
-            #update game objects
+            ## Update game objects
             self.blower.think(frametime)
             self.feather.think(frametime)
             for enemy in self.enemies:
                 enemy.think(frametime)
-            #delete dead enemies
+            # Delete dead enemies
             self.enemies = [enemy for enemy in self.enemies if not enemy.dead]
 
             for effect in self.effects:
                 effect.think(frametime)
             self.effects = [effect for effect in self.effects if not effect.dead]
+
+            ## Draw game objects
+            for enemy in self.enemies:
+                enemy.draw()
+            self.blower.draw()
+            for air in self.airballs:
+                air.draw()
+            for effect in self.effects:
+                effect.draw()
+
+            pygame.display.flip()
     def handleInput(self):
         for event in pygame.event.get():
             if event.type == QUIT:
@@ -51,4 +64,6 @@ class Game:
                 if self.res.cfg.keyRight == event.key:
                     if self.blower.direction == Blower.RIGHT:
                         self.blower.direction = Blower.STOP
-
+            elif event.type == MOUSEBUTTONDOWN:
+                if event.button == 1:
+                    self.blower.shoot = True
