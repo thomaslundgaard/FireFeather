@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 
-import resources
 import pygame
 import os
 import time
+from pygame.locals import *
+
+import resources
+from game import Game
 
 class Main:
     def __init__ (self):
@@ -29,8 +32,24 @@ class Main:
         pygame.display.flip ()
 
         self.res.load ()
-        time.sleep (5)
         
     def menu (self):
-        pass
-    
+        while True:
+            menuImage = pygame.image.load (os.path.join ("gfx", "menu.png"))
+            self.res.screen.fill ( (255,255,255))
+            self.res.screen.blit (menuImage, (0,0))
+            pygame.display.flip ()
+            
+            while True:
+                for event in pygame.event.get():
+                    if event.type == QUIT:
+                        return
+                    elif event.type == KEYDOWN:
+                        if event.key == K_ESCAPE:
+                            return
+                        elif event.key == K_RETURN:
+                            continue
+                            
+            game = Game (1,self.res)
+            game.run ()
+            del game
