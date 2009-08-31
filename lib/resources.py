@@ -16,6 +16,7 @@ class Resources:
         self.menuBackground = self.menuBackground.convert_alpha ()
         self.blowerMan = pygame.image.load (os.path.join ("gfx", "blowerMan.png"))
         self.blowerMan = self.blowerMan.convert_alpha ()
+        self.blowerManLeft = pygame.transform.flip (self.blowerMan, 1, 0)
         self.blowerGun = pygame.image.load (os.path.join ("gfx", "blowerGun.png"))
         self.blowerGun = self.blowerGun.convert_alpha ()
         self.airball = pygame.image.load (os.path.join ("gfx", "airball.png"))

@@ -56,7 +56,11 @@ class Blower (GraphicsBase):
 
         # draw the blower
         self.image.fill ((0,0,0,0))
-        self.image.blit (self.game.res.blowerMan, ( (Blower.imageWidth-self.game.res.blowerMan.get_width ())/2, (Blower.imageHeight-self.game.res.blowerMan.get_height()) ))
+        if ( self.angle > math.pi/2 ):
+            blowerImg = self.game.res.blowerManLeft
+        else:
+            blowerImg = self.game.res.blowerMan
+        self.image.blit (blowerImg, ( (Blower.imageWidth-self.game.res.blowerMan.get_width ())/2, (Blower.imageHeight-self.game.res.blowerMan.get_height()) ))
         rotatedGun = pygame.transform.rotozoom (self.game.res.blowerGun, math.degrees(self.angle), 1)
         rotatedRect = rotatedGun.get_rect()
         rotatedRect.center = (self.image.get_width()/2 + self.blowerManLeft2Fix, self.image.get_height()-self.blowerManButtom2Fix)
