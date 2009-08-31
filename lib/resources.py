@@ -12,6 +12,7 @@ class Resources:
         self.cfg = config.Config ()
         
     def load (self):
+        self.menuBackground = pygame.image.load (os.path.join ("gfx", "menuBackground.png"))
         self.blowerMan = pygame.image.load (os.path.join ("gfx", "blowerMan.png"))
         self.blowerGun = pygame.image.load (os.path.join ("gfx", "blowerGun.png"))
-        self.background = pygame.image.load(os.join.path('gfx','background.png'))
+        self.background = pygame.image.load(os.path.join ('gfx','background.png'))

@@ -27,17 +27,16 @@ class Main:
 
     def splash (self):
         splashImage = pygame.image.load (os.path.join ("gfx", "splash.png"))
-        self.res.screen.fill ( (255,255,255))
+        self.res.screen.fill ((255,255,255))
         self.res.screen.blit (splashImage, (0,0))
         pygame.display.flip ()
-
         self.res.load ()
+        time.sleep(1)
         
     def menu (self):
         while True:
-            menuImage = pygame.image.load (os.path.join ("gfx", "menu.png"))
             self.res.screen.fill ( (255,255,255))
-            self.res.screen.blit (menuImage, (0,0))
+            self.res.screen.blit (self.res.menuBackground, (0,0))
             pygame.display.flip ()
             
             while True:
