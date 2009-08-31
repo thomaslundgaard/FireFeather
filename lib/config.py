@@ -8,4 +8,6 @@ class Config:
        self.keyRight = K_d
        self.screenWidth = 640
        self.screenHeight = 480
+       
+       self.blowerVelocity = 10
     

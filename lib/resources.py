@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+import pygame
+import os
+
 import config
 
 class Resources:
@@ -7,4 +10,5 @@ class Resources:
         self.cfg = config.Config ()
         
     def load (self):
-        pass
+        self.blowerMan = pygame.image.load (os.path.join ("gfx", "blowerMan.png"))
+        self.blowerGun = pygame.image.load (os.path.join ("gfx", "blowerGun.png"))
