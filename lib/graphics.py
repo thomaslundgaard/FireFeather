@@ -9,31 +9,41 @@ class GraphicsBase:
         self.game.res.screen.blit (self.image, self.location)
 
 class Blower (GraphicsBase):
-    origImage = pygame.image.load (os.path.join ("gfx", "blower.png")
+    STOP = 0
+    LEFT = 1
+    RIGHT = 2
     def __init__ (self,game):
         GraphicsBase.__init__ (game)
-        self.location = pygame.Rect (self.game.res.cfg.screenWidth/2, self.game.res.cfg.schreenHeight-10)
+        self.location = pygame.Rect (0,0,0,0);
+        self.location.center(self.game.res.cfg.screenWidth/2, self.game.res.cfg.schreenHeight-10)
+    def think (self, time):
+        if (self.direction == LEFT):
+            self.location.move_ip ( -self.game.res.cfg.blowerVelocity * time, 0)
+        elif (self.direction == RIGHT):
+            self.location.move_ip ( self.game.res.cfg.blowerVelocity * time, 0)
+        
+        # If mouse is within window, calculate new angle
+        (mousePosX, mousePosY) = pygame.mouse.get_pos ()
+        if ( mousePosX > 0 and mousePosX < self.game.res.cfg.screenWidth and \
+                mousePosY > 0 and mousePosY < self.game.res.cfg.screenHeight ):
+            pass
 
 class Air (GraphicsBase):
-    origImage = pygame.image.load (os.path.join ("gfx", "air.png")
-    def __init__ (self,game, location):
+    def __init__ (self, game, location):
         GraphicsBase.__init__ (game)
         self.location = location
 
 class Feather (GraphicsBase):
-    origImage = pygame.image.load (os.path.join ("gfx", "feather.png")
     def __init__ (self,game):
         GraphicsBase.__init__ (game)
         self.location = pygame.Rect (self.game.res.cfg.screenWidth/2, self.game.res.cfg.schreenHeight/2)
 
 class Fireball (GraphicsBase):
-    origImage = pygame.image.load (os.path.join ("gfx", "fireball.png")
     def __init__ (self,game):
         GraphicsBase.__init__ (game)
         self.location = pygame.Rect (self.game.res.cfg.screenWidth/2, self.game.res.cfg.schreenHeight/2)
 
 class BottomFire (GraphicsBase):
-    origImage = pygame.image.load (os.path.join ("gfx", "bottomFire.png")
     def __init__ (self,game):
         GraphicsBase.__init__ (game)
         self.location = pygame.Rect (self.game.res.cfg.screenWidth/2, self.game.res.cfg.schreenHeight-20)
