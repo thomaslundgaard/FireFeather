@@ -39,7 +39,8 @@ class Main:
             self.res.screen.blit (self.res.menuBackground, (0,0))
             pygame.display.flip ()
             
-            while True:
+            play = False
+            while not play:
                 for event in pygame.event.get():
                     if event.type == QUIT:
                         return
@@ -47,8 +48,10 @@ class Main:
                         if event.key == K_ESCAPE:
                             return
                         elif event.key == K_RETURN:
-                            continue
-                            
+                            play = True
+                            break
+
+            play = False                
             game = Game (1,self.res)
             game.run ()
             del game

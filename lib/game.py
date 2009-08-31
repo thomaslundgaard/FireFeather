@@ -3,6 +3,7 @@
 import pygame
 from graphics import Blower
 from spawnengine import Spawnengine
+from pygame.locals import *
 
 class Game:
     def __init__(self, level, resources):
@@ -13,7 +14,7 @@ class Game:
         self.airballs = []
         self.effects = []
         self.feather = None #TODO
-        self.blower = None #TODO
+        self.blower = Blower(self) 
         self.clock = pygame.time.Clock()
 
         self.spawner = Spawnengine(self)
@@ -24,9 +25,13 @@ class Game:
             # Clear screen
             self.res.screen.blit(self.res.background, (0,0))
 
+            #Get input
+            self.handleInput()
+
             ## Update game objects
+            self.spawner.think(frametime)
             self.blower.think(frametime)
-            self.feather.think(frametime)
+            #TODO: self.feather.think(frametime)
             for enemy in self.enemies:
                 enemy.think(frametime)
             # Delete dead enemies
@@ -49,6 +54,7 @@ class Game:
     def handleInput(self):
         for event in pygame.event.get():
             if event.type == QUIT:
+                print "quit"
                 self.quit = True
                 return
             elif event.type == KEYDOWN:
