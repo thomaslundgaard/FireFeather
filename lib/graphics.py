@@ -66,7 +66,7 @@ class Airball (GraphicsBase):
         self.angle = angle
         self.dead = False
         self.image = pygame.transform.rotozoom (self.game.res.airball, self.angle, 1)
-    def think (self):
+    def think (self, time):
         pass
 
 class Feather (GraphicsBase):
