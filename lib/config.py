@@ -20,7 +20,16 @@ class Config:
         self.ballsBase = 10
         self.ballsMultiplier = 2
         #ball velocity
-        self.ballsVelBase = 0.3
-        self.ballsVelGain = 0.1
+        self.ballsVelBase = 0.2
+        self.ballsVelGain = 0.05
         self.ballsVelLevelBoost = 0.05
+
+        #feather parameters
+        self.featherGForce = 0.08
+        self.featherBlowForce = 0.2
+        self.featherMaxSpeedX = 0.3
+        self.featherMaxSpeedY = 0.1
+        self.featherDragX = 0.1
+        self.featherDragY = 0.5
+
     

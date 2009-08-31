@@ -3,7 +3,7 @@
 
 import pygame
 import sys
-from graphics import Blower
+from graphics import Blower, Feather
 from spawnengine import Spawnengine
 from pygame.locals import *
 
@@ -15,7 +15,7 @@ class Game:
         self.enemies = []
         self.airballs = []
         self.effects = []
-        self.feather = None #TODO
+        self.feather = Feather(self)
         self.blower = Blower(self) 
         self.clock = pygame.time.Clock()
 
@@ -33,7 +33,7 @@ class Game:
             ## Update game objects
             self.spawner.think(frametime)
             self.blower.think(frametime)
-            #TODO: self.feather.think(frametime)
+            self.feather.think(frametime)
             for enemy in self.enemies:
                 enemy.think(frametime)
             # Delete dead enemies
@@ -49,6 +49,7 @@ class Game:
             self.effects = [effect for effect in self.effects if not effect.dead]
 
             ## Draw game objects
+            self.feather.draw()
             for enemy in self.enemies:
                 enemy.draw()
             self.blower.draw()
