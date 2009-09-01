@@ -10,7 +10,9 @@ class Config:
         self.screenHeight = 480
        
         self.blowerVelocity = 0.3
-        self.airballVelocity = 5
+        self.airballVelocity = 6.0
+        self.airballDrag = 0.001
+        self.airballBounce = 0.5
 
         #round length is (base + level * multiplier) in seconds
         self.roundlengthBase = 12.0 
@@ -25,11 +27,14 @@ class Config:
         self.ballsVelLevelBoost = 0.05
 
         #feather parameters
-        self.featherGForce = 0.08
-        self.featherBlowForce = 0.2
-        self.featherMaxSpeedX = 0.3
-        self.featherMaxSpeedY = 0.1
-        self.featherDragX = 0.1
-        self.featherDragY = 0.5
+        self.featherGForce = 0.00004
+        self.featherBlowForceY = 0.0002
+        self.featherBlowForceX = 0.0003
+        self.featherFireballForce = 0.5
+        #self.featherMaxSpeedX = 0.3
+        #self.featherMaxSpeedY = 0.1
+        self.featherDragX = 0.008
+        self.featherDragY = 0.008
+        self.featherTilt = 500.0
 
     

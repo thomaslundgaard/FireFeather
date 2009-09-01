@@ -73,10 +73,31 @@ class Airball (GraphicsBase):
         self.image = pygame.transform.rotozoom (self.game.res.airball, math.degrees(self.angle), 1)
         self.location = pygame.Rect (0, 0, self.image.get_width (), self.image.get_height ())
         self.location.center = centerLoc
+        self.posX, self.posY = centerLoc
         self.dead = False
+        self.velocity = self.game.res.cfg.airballVelocity
     def think (self, time):
-        self.location.move_ip (math.cos(self.angle)*self.game.res.cfg.airballVelocity,\
-            -math.sin(self.angle)*self.game.res.cfg.airballVelocity)
+        self.velocity -= self.velocity * self.game.res.cfg.airballDrag * time
+        self.posX += math.cos(self.angle)*self.velocity
+        self.posY -= math.sin(self.angle) * self.velocity
+        self.location.center = (self.posX, self.posY)
+
+        if self.velocity < 1.0e-2:
+            self.dead = True
+            return
+        #collide with feather
+        if self.game.feather.location.collidepoint(self.posX,self.posY):
+            self.game.feather.hitbyairball(self)
+            self.dead = True
+        #collide with walls
+        if self.posX - self.location.width/2 < 0:
+            self.posX = self.location.width/2
+            self.velocity *= self.game.res.cfg.airballBounce
+            self.angle = math.pi - self.angle
+        elif self.posX + self.location.width/2 > self.game.res.cfg.screenWidth:
+            self.posX = self.game.res.cfg.screenWidth - self.location.width/2
+            self.velocity *= self.game.res.cfg.airballBounce
+            self.angle = math.pi - self.angle
 
 class Feather (GraphicsBase):
     def __init__ (self,game):
@@ -88,15 +109,37 @@ class Feather (GraphicsBase):
         self.location.center = (self.game.res.cfg.screenWidth/2, self.game.res.cfg.screenHeight/2)
         self.velX = 0.0
         self.velY = 0.0
-        self.angle = 0.0
+        self.posX, self.posY = self.location.center
     def think(self,time):
-        accelX = -self.velX*self.game.res.cfg.featherDragX
-        self.velX += accelX
+        accelX = -self.velX * math.fabs(self.velX) * self.game.res.cfg.featherDragX
+        self.velX += accelX * time
 
-        accelY = -self.velY*self.game.res.cfg.featherDragY + self.game.res.cfg.featherGForce
-        self.velY += accelY
+        accelY = -self.velY * math.fabs(self.velY) * self.game.res.cfg.featherDragY + self.game.res.cfg.featherGForce
+        self.velY += accelY * time
+        
+        self.posX += self.velX * time
+        self.posY += self.velY * time
 
-        self.location.move_ip(self.velX * time, self.velY * time)
+        #stay inside map
+        if self.posX - self.location.width/2 < 0:
+            self.posX = self.location.width/2
+            self.velX *= -0.5
+        elif self.posX + self.location.width/2 > self.game.res.cfg.screenWidth:
+            self.posX = self.game.res.cfg.screenWidth - self.location.width/2
+            self.velX *= -0.5
+
+        #rotate feather
+        self.image = pygame.transform.rotozoom(self.game.res.feather,- self.velX * self.game.res.cfg.featherTilt,1)
+        self.location = self.image.get_rect()
+        self.location.center = (self.posX, self.posY)
+    def hitbyfireball(self, fireball):
+        self.velY += fireball.velocity * self.game.res.cfg.featherFireballForce
+    def hitbyairball(self, airball):
+        magnitudeY = airball.velocity * self.game.res.cfg.featherBlowForceY
+        magnitudeX = airball.velocity * self.game.res.cfg.featherBlowForceX
+        self.velY -= (self.location.width/2 - math.fabs(self.posX - airball.posX)) * magnitudeY
+        self.velX += (self.posX - airball.posX) * magnitudeX 
+
 
 
 class Fireball (GraphicsBase):
@@ -110,6 +153,7 @@ class Fireball (GraphicsBase):
         self.velocity = vel
         self.rotationspeed = (random.random() - 0.5) * 10
         self.angle = 0.0
+        self.collided = False
     def think(self,time):
         self.location.move_ip(0,self.velocity*time)
         oldcenter = self.location.center
@@ -121,6 +165,15 @@ class Fireball (GraphicsBase):
         self.image = pygame.transform.rotozoom(self.game.res.fireball,self.angle,1)
         self.location = self.image.get_rect()
         self.location.center = oldcenter
+
+        #die if below screen:
+        if self.location.top > self.game.res.cfg.screenHeight:
+            self.dead = True
+        #collide with feather
+        if not self.collided:
+            if self.game.feather.location.collidepoint(self.location.center):
+                self.collided = True
+                self.game.feather.hitbyfireball(self)
 
 class BottomFire (GraphicsBase):
     def __init__ (self,game):
