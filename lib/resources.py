@@ -27,3 +27,5 @@ class Resources:
         self.feather = self.feather.convert_alpha()
         self.fireball = pygame.image.load(os.path.join('gfx','fireball.png'))
         self.fireball = self.fireball.convert_alpha ()
+        self.nest = pygame.image.load(os.path.join('gfx','nest.png'))
+        self.nest = self.nest.convert_alpha ()

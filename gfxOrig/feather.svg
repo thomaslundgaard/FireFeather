@@ -80,16 +80,16 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="365.33242"
-     inkscape:cy="815.51147"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="591.52196"
+     inkscape:cy="511.34328"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="952"
-     inkscape:window-x="-4"
-     inkscape:window-y="-4" />
+     inkscape:window-x="532"
+     inkscape:window-y="47" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -561,5 +561,1523 @@
        d="M 587.43001,221.63739 C 587.43001,221.63739 591.00145,214.49453 594.57287,215.20882 C 598.1443,215.9231 599.75145,215.9231 601.53716,218.78025 C 603.32288,221.63739 610.6443,219.13739 611.00145,223.78024 C 611.35859,228.4231 612.07287,236.28024 607.43002,237.35167 C 602.78716,238.4231 600.6443,240.9231 595.28716,241.99453 C 589.93002,243.06596 585.28716,239.85167 584.21573,237.35167 C 583.1443,234.85167 578.50145,237.70882 577.07287,233.06596 C 575.6443,228.4231 586.35859,222.35167 587.43001,221.63739 z"
        id="path3464"
        sodipodi:nodetypes="csssssssc" />
+    <path
+       style="fill:#91722a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 719.7337,745.78089 C 719.7337,745.78089 601.04077,724.56768 581.34279,738.70982 C 561.64482,752.85195 523.26957,775.56249 490.42907,777.60069 C 460.0971,779.48319 449.51789,762.4484 449.51789,762.4484 C 449.51789,762.4484 474.7717,761.43825 499.52044,759.41795 C 524.26917,757.39764 570.23112,725.57784 582.85802,723.55753 C 595.48493,721.53723 554.06867,721.03215 547.50268,722.0423 C 544.21969,722.54737 409.04244,741.04513 401.59877,742.62416 C 393.39862,744.36367 370.22091,763.45855 370.22091,763.45855 C 370.22091,763.45855 377.87242,743.39327 383.22662,739.02549 C 388.89128,734.40445 492.70191,708.53151 507.09658,705.87986 C 521.49126,703.22821 565.17838,704.88957 580.33265,706.38493 C 591.00992,707.43852 719.76959,727.59814 719.76959,727.59814 L 719.7337,745.78089 z"
+       id="path3685"
+       sodipodi:nodetypes="csscsssscszscc"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#d8a631;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.41070533;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2462"
+       sodipodi:cx="521.49127"
+       sodipodi:cy="739.2149"
+       sodipodi:rx="99.24749"
+       sodipodi:ry="44.95179"
+       d="M 620.73876,739.2149 A 99.24749,44.95179 0 1 1 422.24378,739.2149 A 99.24749,44.95179 0 1 1 620.73876,739.2149 z"
+       transform="matrix(0.8296327,0,0,0.8296327,44.997122,115.58398)"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#9b7a2c;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3234"
+       sodipodi:cx="507.09659"
+       sodipodi:cy="728.86084"
+       sodipodi:rx="65.659912"
+       sodipodi:ry="21.970818"
+       d="M 572.7565,728.86084 A 65.659912,21.970818 0 1 1 441.43668,728.86084 A 65.659912,21.970818 0 1 1 572.7565,728.86084 z"
+       transform="translate(-29.7995,-11.111678)"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:#5f4407;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 422.74884,729.11337 C 422.74884,729.11337 438.40621,701.83925 476.79201,706.38494 C 515.17781,710.93063 524.26918,717.49661 530.33009,724.56768 C 536.39101,731.63875 500.06036,740.16209 471.74124,738.70982 C 431.84022,736.68951 421.23362,728.60829 422.74884,729.11337 z"
+       id="path3463"
+       sodipodi:nodetypes="csssc"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 551.03822,725.57783 C 553.59941,722.56932 558.80633,716.22368 560.12959,710.93062"
+       id="path3256"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 406.08133,739.71997 C 406.78851,736.89124 409.98406,748.24483 415.1727,756.89256 C 416.50027,759.10519 418.88255,763.46749 420.22346,765.47886"
+       id="path3258"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 412.64732,738.20474 C 416.39507,744.45099 400.97986,729.34055 394.46457,726.08291 C 388.86609,723.28367 388.56526,723.21811 384.36305,721.53722"
+       id="path3260"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 395.47473,743.2555 C 394.49041,742.76335 395.47473,729.93496 395.47473,728.60829"
+       id="path3262"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 403.05087,745.78089 C 398.79969,743.65529 407.10369,737.15796 408.60671,732.6489 C 409.14965,731.02008 409.28014,729.28173 409.61686,727.59814"
+       id="path3264"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 421.23362,747.80119 C 421.52322,746.93237 443.02219,752.57702 444.9722,753.35703"
+       id="path3266"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 424.76915,746.28596 C 426.04801,742.44938 424.29338,754.48442 425.27423,758.40779 C 425.64164,759.87746 425.92101,761.5 426.28438,762.95348"
+       id="path3268"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 438.91129,756.38749 C 439.14376,757.3174 469.20612,754.36718 472.7514,754.36718"
+       id="path3270"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 452.04327,756.89256 C 453.29473,761.89841 450.13614,767.30321 455.5788,770.02455"
+       id="path3272"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 462.14479,758.40779 C 462.18405,758.5648 485.42447,758.40779 487.39861,758.40779"
+       id="path3274"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 476.79201,763.96363 C 476.89394,764.37135 493.03909,759.41794 495.47983,759.41794"
+       id="path3276"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 496.48998,751.33672 C 497.55164,755.58336 504.40291,747.48851 508.61181,746.28596 C 513.7997,744.80371 516.67188,743.2555 521.74379,743.2555"
+       id="path3278"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 485.3783,752.85195 C 486.42614,752.55257 485.88338,739.4381 485.88338,737.69967"
+       id="path3280"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 495.47983,746.28596 C 501.30912,744.62045 508.24016,733.02055 512.65242,728.60829"
+       id="path3282"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 520.22857,743.2555 C 521.83338,742.79698 525.26583,729.67245 525.7844,727.59814"
+       id="path3284"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 523.7641,747.29611 C 527.973,746.09357 523.7641,756.05077 523.7641,760.4281 C 523.7641,761.95265 523.42738,763.45856 523.25902,764.97378"
+       id="path3286"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 529.31994,746.79104 C 529.31994,750.39407 533.72411,741.08717 535.88593,738.20474 C 536.7549,737.04612 537.56952,735.84772 538.41131,734.66921"
+       id="path3288"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 532.3504,730.12352 C 534.42958,727.21266 534.97516,720.12953 535.88593,716.48646"
+       id="path3290"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 542.45192,735.17428 C 545.59102,730.77954 544.47223,720.27841 544.47223,714.97123"
+       id="path3292"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 548.00776,742.24535 C 552.51436,735.93612 557.99576,725.60622 566.19051,723.55753"
+       id="path3294"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 460.62956,746.79104 C 463.67412,742.52866 453.98152,727.01101 451.03312,724.06261"
+       id="path3296"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 451.53819,743.76058 C 451.55361,743.739 443.46762,735.44013 442.44682,734.16413 C 441.39509,732.84947 440.42651,731.47039 439.41636,730.12352"
+       id="path3298"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 465.68033,750.83165 C 464.62745,749.51555 481.87073,741.74028 483.86307,741.74028"
+       id="path3300"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 430.83006,744.26566 C 425.94158,738.15505 423.60749,729.07972 418.70823,722.54738"
+       id="path3302"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 411.13209,727.59814 C 409.56226,725.63585 407.81617,718.94158 402.04072,715.47631"
+       id="path3304"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 402.54579,718.50677 C 400.90689,716.45814 400.12029,729.31313 404.06102,737.19459"
+       id="path3306"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 395.9798,732.14383 C 393.33162,728.83359 396.66366,740.61389 397.49503,744.77073 C 398.76507,751.12091 406.33518,755.27685 411.63717,757.39764"
+       id="path3308"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 411.63717,745.78089 C 413.11007,753.14541 418.7,762.14206 425.7793,764.97378"
+       id="path3310"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 433.86052,756.38749 C 435.52255,764.69763 452.84281,768.94419 459.11434,771.0347"
+       id="path3312"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 454.06357,760.4281 C 456.03345,770.27747 487.32259,771.0347 494.46968,771.0347"
+       id="path3314"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 495.47983,759.92302 C 496.23611,763.70443 518.45288,764.19012 521.23872,764.46871"
+       id="path3316"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 528.81486,753.35703 C 528.96046,754.08501 540.38628,746.62528 541.44177,745.78089"
+       id="path3318"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 490.93414,767.49917 C 491.54719,770.56442 474.03573,771.53978 472.7514,771.53978"
+       id="path3320"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 485.88338,758.40779 C 486.38642,760.92302 464.59591,761.94333 462.64987,761.94333"
+       id="path3322"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 460.62956,756.38749 C 461.14689,758.97413 450.75723,751.83143 439.41636,746.79104"
+       id="path3324"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 447.49758,748.30627 C 448.06564,751.14657 444.49499,743.28337 442.44682,741.2352 C 439.03279,737.82117 435.62047,734.79157 431.33514,732.6489"
+       id="path3326"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 409.11178,726.08291 C 406.21279,723.18391 412.15805,718.44355 413.1524,714.46616"
+       id="path3328"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 400.52549,717.49661 C 401.78387,712.46309 408.58426,706.40739 412.14224,702.8494"
+       id="path3330"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 412.64732,708.91032 C 413.56703,705.23149 420.75113,699.4119 423.25392,696.28341"
+       id="path3332"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 423.759,700.32402 C 424.50114,697.35546 434.15944,694.14825 436.89098,693.75803"
+       id="path3334"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 546.99761,715.98139 C 547.99305,711.9996 542.64032,704.78419 540.43162,701.83925"
+       id="path3336"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 549.01791,725.57783 C 549.33615,724.30489 552.07388,719.33834 552.55345,715.98139"
+       id="path3338"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 545.98746,733.15398 C 546.24939,732.10625 539.43876,740.09982 532.85547,749.31642"
+       id="path3340"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 525.7844,745.27581 C 521.77986,750.88217 515.36245,756.15397 513.66257,762.95348"
+       id="path3342"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 508.10673,749.8215 C 506.8809,751.53766 490.59754,752.3805 486.89353,753.86211"
+       id="path3344"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 485.88338,749.31642 C 485.59897,749.71459 476.9001,740.42944 468.71079,737.69967"
+       id="path3346"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 421.23362,717.49661 C 419.70505,719.63661 425.03945,713.7989 427.29453,712.44585"
+       id="path3348"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 419.21331,718.50677 C 416.80636,721.8765 422.1181,710.57635 424.76915,707.39509 C 425.30322,706.75421 427.0409,706.25921 427.79961,705.87986"
+       id="path3350"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 429.81991,715.98139 C 433.79686,711.20905 439.24573,707.39509 445.47728,707.39509"
+       id="path3352"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 421.73869,725.57783 C 425.43122,721.1468 434.43749,714.24987 440.93159,709.92047"
+       id="path3354"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 429.81991,721.53722 C 435.10677,715.193 443.05492,709.41539 451.53819,709.41539"
+       id="path3356"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 446.99251,711.4357 C 450.63629,707.06316 461.30679,706.89001 466.69048,706.89001"
+       id="path3358"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 530.33009,727.59814 C 533.11127,724.26072 520.08318,714.42462 516.69303,713.456"
+       id="path3360"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 519.21841,716.99154 C 519.74221,716.36298 513.15625,714.71807 506.59151,711.4357 C 504.99159,710.63574 501.96551,710.93062 500.02551,710.93062"
+       id="path3362"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 503.05597,711.94078 C 496.51116,708.66837 471.56559,699.753 467.70063,709.41539"
+       id="path3364"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 485.88338,708.40524 C 479.30045,705.11378 463.19565,708.22331 456.58895,710.42555"
+       id="path3366"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 445.98235,704.86971 C 443.12521,703.44114 452.04327,702.8494 455.07373,701.83925 C 459.07709,700.50479 462.61082,699.31875 466.69048,698.80879"
+       id="path3368"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 434.87067,708.91032 C 435.90931,708.56411 438.24871,696.59841 438.91129,695.27326"
+       id="path3370"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 423.759,714.46616 C 426.11722,713.68008 418.95072,712.68834 417.19301,710.93062"
+       id="path3372"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 426.28438,717.49661 C 433.57076,715.06782 432.90214,709.22093 431.84022,702.8494"
+       id="path3374"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 412.14224,714.97123 C 414.36113,714.2316 409.17398,711.1794 408.60671,708.91032 C 407.94926,706.28054 409.43187,701.064 410.12194,698.30372"
+       id="path3376"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 425.27423,707.90016 C 424.98935,706.76066 436.67594,699.70293 438.91129,698.80879"
+       id="path3378"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 532.85547,719.51692 C 532.21392,716.95071 534.15913,713.7381 537.40116,709.41539"
+       id="path3380"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 553.05852,732.14383 C 553.0286,732.02414 559.11944,723.26287 559.11944,720.52707 C 559.11944,719.01184 559.11944,717.49661 559.11944,715.98139"
+       id="path3382"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 546.49253,728.10322 C 546.49253,722.47755 548.00776,716.66855 548.00776,710.93062"
+       id="path3384"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 536.89608,744.77073 C 536.89608,741.11127 527.95483,735.44272 525.27933,733.65905"
+       id="path3386"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 529.31994,746.28596 C 529.31994,742.69196 525.03148,739.47213 522.75395,737.19459"
+       id="path3389"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 521.23872,754.36718 C 521.23872,748.7213 508.8286,739.74903 504.5712,737.19459"
+       id="path3391"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 509.11689,756.89256 C 509.11689,750.50128 495.13793,741.2352 489.41891,741.2352"
+       id="path3393"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 527.80471,712.95093 C 527.80471,710.92688 530.77041,704.68842 531.34024,701.83925"
+       id="path3395"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 525.7844,713.456 C 525.7844,708.21896 524.43126,700.57185 520.73364,697.79864"
+       id="path3397"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 522.75395,712.95093 C 522.75395,704.90911 513.07804,690.99316 504.5712,697.79864"
+       id="path3399"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 457.09403,689.21234 C 463.01194,683.29443 498.51029,697.11166 498.51029,701.83925 C 498.51029,698.57032 504.9354,700.61178 508.10673,699.81894 C 511.92172,698.8652 512.33369,699.54434 514.67273,700.32402"
+       id="path3401"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 505.58135,706.38494 C 509.30096,705.45503 494.07545,697.4804 483.86307,695.77833 C 470.89284,693.61663 483.70997,695.80385 477.80216,696.78849"
+       id="path3403"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 475.27678,701.33417 C 475.26396,701.33204 470.9951,688.73021 470.22601,687.19204"
+       id="path3405"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 460.12449,703.35448 C 457.18589,702.86471 455.08109,696.79217 452.04327,695.27326"
+       id="path3407"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 444.46712,706.89001 C 441.43667,706.38494 443.69703,700.77917 442.9519,697.79864 C 440.35375,687.40604 442.05539,695.85621 439.92144,691.23265"
+       id="path3409"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 451.53819,703.35448 C 451.40575,702.82472 464.62419,694.79118 465.68033,694.26311"
+       id="path3411"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 452.04327,692.74788 C 451.23499,689.51478 442.04418,679.71122 440.42651,686.18189"
+       id="path3413"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 450.02296,697.29356 C 448.89831,692.79494 448.15941,687.78421 447.49758,683.15143"
+       id="path3415"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 444.9722,702.8494 C 443.77515,698.0612 439.03843,692.91507 435.37575,697.79864"
+       id="path3417"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 437.90113,704.36463 C 436.86991,700.23974 437.42797,692.11516 438.40621,688.20219"
+       id="path3419"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 420.72854,710.42555 C 420.57302,709.80346 414.58985,709.92047 412.64732,709.92047"
+       id="path3421"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 401.03056,722.0423 C 400.34203,719.28815 409.19911,704.59534 412.14224,703.85955"
+       id="path3423"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 412.64732,738.20474 C 411.72163,734.50199 414.56268,728.73287 415.1727,725.07276"
+       id="path3425"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 419.21331,741.2352 C 417.99412,736.35843 423.67405,724.93869 427.29453,722.0423"
+       id="path3427"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 443.96205,750.32657 C 443.14846,747.07221 450.37612,748.35691 453.5585,747.29611 C 460.20254,745.08143 465.75265,741.22487 472.7514,740.22505"
+       id="path3429"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 445.47728,745.78089 C 448.55192,744.756 459.89089,748.73348 463.15495,749.8215"
+       id="path3431"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 493.45952,748.30627 C 495.77301,747.5351 498.30592,744.36978 499.52044,742.75043"
+       id="path3433"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 491.94429,702.34433 C 495.94684,701.01014 484.83517,697.61759 480.83262,696.28341 C 479.06846,695.69536 477.12872,695.94669 475.27678,695.77833"
+       id="path3435"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 482.34784,700.32402 C 476.80822,698.47748 471.86023,694.6492 466.69048,699.81894 C 463.27607,698.6808 473.74695,698.39033 477.29708,697.79864 C 478.79169,697.54954 480.32754,697.79864 481.84277,697.79864"
+       id="path3437"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 485.3783,704.36463 C 485.74964,704.30274 486.05174,704.02791 486.38845,703.85955 C 490.26329,701.92214 495.7396,702.77932 499.52044,703.85955"
+       id="path3439"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 516.18795,712.95093 C 516.96277,712.56352 523.17851,711.94078 525.7844,711.94078"
+       id="path3441"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 519.72349,706.89001 C 526.65383,703.42484 510.78736,702.77178 507.60166,704.36463"
+       id="path3443"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 510.12704,708.40524 C 520.27341,703.33206 527.32463,714.08607 528.81486,721.53722"
+       id="path3445"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 533.86562,727.09306 C 536.40257,725.82459 535.24258,715.15177 534.87578,712.95093"
+       id="path3447"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 538.91639,725.57783 C 543.87865,723.0967 535.06924,707.49182 531.84532,705.87986"
+       id="path3449"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 534.87578,721.03215 C 541.60398,717.66805 513.23763,704.36463 507.09658,704.36463"
+       id="path3451"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 507.09658,711.94078 C 507.09658,711.94078 507.09658,711.94078 507.09658,711.94078 z"
+       id="path3453"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 494.97475,706.38494 C 498.11905,704.81279 488.20826,704.46616 484.87323,703.35448 C 480.26631,701.81884 476.42716,701.33417 471.74124,701.33417 C 465.30105,699.18744 451.58854,700.23145 444.9722,701.33417"
+       id="path3455"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 443.45697,710.93062 C 443.32413,710.88634 450.66349,704.86236 455.07373,701.33417 C 458.21164,698.82384 463.40526,697.83503 467.19556,697.29356"
+       id="path3457"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 446.99251,706.89001 C 449.80293,704.64167 439.91511,708.20448 436.3859,708.91032 C 431.57183,709.87313 427.98759,711.34171 423.759,713.456"
+       id="path3459"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 423.25392,719.51692 C 421.05647,719.95641 430.01047,703.97664 441.43667,702.34433"
+       id="path3461"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 456.58895,716.48646 C 455.1848,713.11924 450.6217,707.97041 446.48743,704.86971"
+       id="path3465"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 450.52804,720.022 C 450.35968,719.85364 450.19132,719.68528 450.02296,719.51692 C 446.30289,715.79685 440.25692,718.17129 437.39606,721.03215"
+       id="path3467"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 474.26662,716.48646 C 473.84747,716.0673 488.24109,711.14124 499.52044,713.96108"
+       id="path3469"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 514.16765,721.53722 C 511.80769,719.17727 509.22035,718.01893 506.08643,717.49661"
+       id="path3471"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 496.99506,727.09306 C 494.19481,724.29281 487.26405,723.55753 483.358,723.55753"
+       id="path3473"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 468.20571,730.12352 C 458.60917,720.52698 439.14069,717.10181 426.78945,722.0423"
+       id="path3475"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 440.42651,718.50677 C 440.34874,718.429 450.01409,709.41983 452.04327,708.40524"
+       id="path3477"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 454.56865,714.46616 C 452.126,712.0235 459.42824,709.54378 461.63972,706.89001 C 463.16174,705.06359 464.45995,704.14349 466.1854,702.8494"
+       id="path3479"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 467.70063,713.96108 C 470.97641,710.03014 472.74711,706.13454 477.29708,703.85955"
+       id="path3481"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 489.41891,715.47631 C 495.31366,708.40261 509.82506,711.52274 516.69303,714.46616"
+       id="path3483"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 523.7641,724.06261 C 523.88052,723.92291 526.96647,727.94197 528.30979,730.6286"
+       id="path3485"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 520.73364,724.56768 C 524.12748,720.49507 515.52778,730.7837 512.14734,734.16413"
+       id="path3487"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 504.5712,729.61844 C 509.30374,723.9394 491.99032,737.42411 485.3783,740.73012"
+       id="path3489"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 456.58895,745.27581 C 457.40195,744.30022 452.8214,735.99345 451.53819,732.14383"
+       id="path3491"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 453.05342,739.21489 C 454.81666,737.09901 447.81614,727.06582 446.48743,725.07276"
+       id="path3493"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 445.47728,742.75043 C 447.51687,740.30292 438.5071,726.00195 436.89098,724.06261"
+       id="path3495"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 483.86307,744.77073 C 483.86307,744.0973 483.86307,743.42386 483.86307,742.75043 C 483.86307,738.45265 478.81232,731.63878 476.79201,727.59814"
+       id="path3497"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 478.30723,745.27581 C 478.30723,740.14097 472.34779,731.23515 468.71079,727.59814 C 468.71079,723.25184 467.39263,718.72863 468.71079,713.456"
+       id="path3499"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 475.78185,727.09306 C 475.78185,722.25387 484.91149,715.46674 488.91384,714.46616"
+       id="path3501"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 508.10673,728.60829 C 508.10673,723.13032 499.06443,714.84771 495.9849,709.92047"
+       id="path3503"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 502.5509,702.8494 C 505.67824,703.89185 511.64227,707.18779 511.64227,711.4357 C 511.64227,708.93642 499.42111,701.81442 497.50013,701.33417"
+       id="path3505"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 542.45192,716.99154 C 542.45192,709.50004 542.13671,705.05957 536.39101,699.31387"
+       id="path3507"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 539.42146,708.91032 C 539.42146,705.42225 536.55704,700.99513 534.3707,698.80879"
+       id="path3509"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 540.93669,744.77073 C 540.93669,741.88091 549.56473,730.77679 551.03822,727.09306"
+       id="path3511"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 538.41131,737.19459 C 538.41131,731.67478 534.68164,725.22902 533.86562,719.51692"
+       id="path3513"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 535.88593,737.19459 C 535.88593,731.709 542.54276,723.65055 545.98746,719.51692"
+       id="path3515"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 558.10929,741.74028 C 551.22821,746.04095 533.86562,752.64142 533.86562,754.36718 C 533.86562,752.15318 547.33933,745.13912 549.52299,744.26566"
+       id="path3517"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 509.62196,764.97378 C 509.62196,760.76169 513.26202,756.58485 515.68288,753.35703"
+       id="path3519"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 504.5712,758.91287 C 504.5712,755.57977 501.73652,748.66655 501.03567,743.76058"
+       id="path3521"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 494.46968,755.37733 C 494.46968,751.73282 490.08237,745.8006 487.90368,742.75043"
+       id="path3523"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 490.93414,760.4281 C 490.93414,755.66214 487.16121,749.5841 483.86307,746.28596"
+       id="path3525"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 470.22601,759.41794 C 470.22601,752.60163 458.02448,743.2555 452.04327,743.2555"
+       id="path3527"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 432.34529,752.34688 C 432.34529,746.35462 428.80228,739.6751 427.79961,733.65905"
+       id="path3529"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 431.84022,748.81134 C 431.84022,743.72488 430.64735,738.1186 429.81991,733.15398"
+       id="path3531"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 424.76915,751.33672 C 424.76915,744.56722 422.24377,737.30068 422.24377,730.12352"
+       id="path3533"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 419.71839,742.75043 C 419.71839,736.8643 417.19301,731.02359 417.19301,725.07276"
+       id="path3535"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 433.35545,753.86211 C 433.35545,746.31287 436.03208,736.89207 439.41636,730.12352"
+       id="path3537"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 433.86052,750.83165 C 433.86052,743.133 439.1492,733.59958 446.99251,731.63875"
+       id="path3539"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 468.20571,757.90272 C 468.20571,751.05497 462.16235,743.77813 457.59911,739.21489"
+       id="path3541"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 477.29708,750.32657 C 477.29708,746.97564 474.36575,743.55525 472.7514,740.73012"
+       id="path3543"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 481.84277,761.43825 C 481.84277,756.46112 475.22876,748.49879 472.24632,744.77073"
+       id="path3545"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 445.47728,757.90272 C 445.47728,750.76099 421.96262,743.76058 417.19301,743.76058"
+       id="path3547"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 420.72854,746.28596 C 420.72854,742.68322 409.1443,732.01882 406.5864,728.60829"
+       id="path3549"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 409.61686,746.79104 C 409.61686,737.81863 405.57625,728.1004 405.57625,718.50677"
+       id="path3551"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 403.55595,736.18444 C 403.55595,728.83816 400.52549,720.41611 400.52549,712.44585"
+       id="path3553"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 399.51534,722.54738 C 399.51534,714.25808 413.51208,702.16448 420.22346,698.80879"
+       id="path3555"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 414.66762,704.86971 C 414.66762,701.65112 425.54849,696.65136 428.30468,695.27326"
+       id="path3557"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 450.02296,695.27326 C 450.02296,692.0437 463.71928,685.67681 466.1854,685.67681"
+       id="path3559"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 468.71079,692.2428 C 468.71079,687.83514 476.88284,686.68696 479.82246,686.68696"
+       id="path3561"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 485.88338,694.76818 C 485.88338,691.24536 493.09796,687.63971 495.47983,686.68696"
+       id="path3563"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 498.00521,688.20219 C 501.04474,690.63382 505.58135,694.06911 505.58135,698.30372 C 505.58135,695.85874 501.94337,689.00744 501.54074,688.20219"
+       id="path3565"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 526.79456,704.86971 C 526.79456,700.70818 521.94115,695.43115 519.21841,693.25295"
+       id="path3567"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 528.30979,701.83925 C 528.30979,698.63722 526.33304,695.83641 524.77425,693.75803"
+       id="path3569"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 534.87578,710.42555 C 534.87578,706.13897 532.91242,700.55182 531.84532,696.28341"
+       id="path3571"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 553.05852,710.93062 C 554.01852,716.69062 554.06868,722.22529 554.06868,728.10322 C 554.06868,722.81285 551.15465,713.53308 550.02807,707.90016"
+       id="path3573"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 548.00776,738.70982 C 548.00776,731.05825 547.38984,722.82676 543.96715,715.98139"
+       id="path3575"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 553.5636,739.71997 C 553.5636,734.27069 548.375,728.50491 544.47223,725.57783"
+       id="path3577"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 545.98746,742.24535 C 545.98746,737.07858 536.71507,729.29855 532.85547,727.09306"
+       id="path3579"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 531.84532,739.71997 C 531.84532,734.26522 538.01487,727.99458 541.44177,724.56768"
+       id="path3581"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 517.70318,744.26566 C 517.70318,741.18858 527.15944,735.15316 529.82501,733.15398"
+       id="path3583"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 506.59151,751.33672 C 506.59151,746.08177 514.24647,737.85367 517.19811,734.16413"
+       id="path3585"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 512.14734,754.36718 C 512.14734,748.98964 513.5433,744.53218 511.13719,739.71997"
+       id="path3587"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 482.85292,743.2555 C 482.85292,738.10051 503.73046,739.21489 506.59151,739.21489"
+       id="path3589"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 484.36815,749.8215 C 484.36815,747.44854 506.19329,744.68331 509.11689,744.26566"
+       id="path3591"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 488.40876,754.87226 C 488.40876,753.40461 511.49185,748.4997 515.68288,747.80119"
+       id="path3593"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 519.72349,742.75043 C 519.72349,741.15424 530.81161,732.96137 532.85547,732.14383"
+       id="path3595"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 525.27933,738.70982 C 525.27933,737.15679 535.45021,732.61423 537.40116,731.63875"
+       id="path3597"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 470.73109,750.83165 C 470.73109,744.43341 444.34682,743.2555 440.42651,743.2555"
+       id="path3599"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 429.31484,736.68951 C 429.31484,734.98123 414.33472,738.41424 413.1524,738.70982"
+       id="path3601"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 404.5661,737.19459 C 404.5661,730.34803 410.81918,722.35521 415.1727,718.00169"
+       id="path3603"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 409.11178,734.66921 C 409.11178,727.75026 408.70741,719.6858 412.14224,713.96108"
+       id="path3605"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 406.5864,720.022 C 406.5864,715.02665 408.06903,709.56611 411.63717,706.89001"
+       id="path3607"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 442.9519,759.92302 C 442.9519,757.81349 439.4426,762.44184 437.39606,762.95348"
+       id="path3609"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 435.37575,757.39764 C 435.37575,753.29784 427.8588,761.43825 423.759,761.43825 C 418.18969,761.43825 412.65598,761.43825 407.09148,761.43825"
+       id="path3611"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 405.07117,742.75043 C 406.77184,744.02593 412.18434,750.32657 413.65747,750.32657 C 408.98156,750.32657 402.76583,744.42283 399.01026,741.74028"
+       id="path3613"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 474.26662,764.97378 C 471.9096,764.97378 474.26662,769.68783 474.26662,772.04485"
+       id="path3615"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 503.56105,761.43825 C 499.79643,761.43825 501.17227,768.87779 498.51029,771.53978"
+       id="path3617"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 517.70318,755.88241 C 516.57662,755.88241 522.10424,766.12856 527.80471,760.4281"
+       id="path3619"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 530.83517,748.81134 C 528.1198,748.81134 537.61421,749.49116 543.46207,750.32657 C 545.93984,750.68054 548.87972,748.53618 550.53314,747.29611"
+       id="path3621"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 544.47223,744.77073 C 554.87351,746.25663 553.65116,738.85931 560.63467,734.66921 C 562.66016,733.45391 564.95993,731.3541 566.19051,730.12352"
+       id="path3623"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 552.55345,723.05245 C 553.61372,722.41629 555.23624,715.3189 557.60421,712.95093"
+       id="path3625"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 549.52299,716.48646 C 552.61147,714.63337 554.8472,708.46315 561.13974,706.89001"
+       id="path3627"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 542.957,707.39509 C 539.75292,707.11787 537.68524,702.89146 535.38085,699.81894 C 533.18429,696.8902 535.90567,694.90926 532.3504,692.2428 C 531.62508,691.69882 530.66681,691.56937 529.82501,691.23265"
+       id="path3633"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 526.28948,701.83925 C 523.01309,699.38196 522.1209,695.01733 519.72349,690.2225 C 519.16452,689.10456 518.99818,686.81619 518.71334,685.67681"
+       id="path3635"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 508.10673,692.74788 C 506.82326,690.18093 502.35981,685.0325 500.53059,684.66666 C 499.73457,684.50745 499.09753,689.64729 499.01536,690.2225"
+       id="path3637"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 425.27423,698.30372 C 421.58272,697.56541 434.75685,696.96635 435.37575,693.25295 C 436.28919,687.7723 430.55006,686.82697 427.79961,688.20219"
+       id="path3639"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 417.69808,709.41539 C 414.92144,710.80372 413.7314,703.35448 410.62701,703.35448 C 408.91763,703.35448 409.03962,701.98351 408.60671,699.81894"
+       id="path3641"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 463.66002,693.25295 C 463.19836,693.25295 468.65541,686.20957 474.7717,683.15143"
+       id="path3643"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 407.09148,718.00169 C 410.63611,716.22938 402.11275,704.75429 409.11178,703.35448"
+       id="path3645"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 405.07117,737.69967 C 407.23675,736.61688 403.26661,745.63368 404.5661,750.83165 C 405.43609,754.3116 407.36304,757.53342 410.12194,758.91287 C 410.45865,759.08123 410.45865,759.5863 410.62701,759.92302"
+       id="path3647"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 452.54834,749.8215 C 455.0156,751.05513 457.59911,758.12844 457.59911,760.93317 C 457.59911,762.74943 458.73951,762.60723 460.12449,762.95348"
+       id="path3649"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 474.7717,754.36718 C 474.7717,755.39201 480.16688,745.18971 489.92399,742.75043"
+       id="path3651"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 498.51029,752.85195 C 498.51029,755.04708 493.26137,751.60093 491.94429,753.35703 C 491.43922,754.03046 490.93414,754.7039 490.42906,755.37733 C 487.49171,759.29381 485.84233,762.17534 490.42906,764.46871 C 492.4464,765.47737 497.86222,765.47886 500.02551,765.47886"
+       id="path3653"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 518.20826,751.33672 C 520.23417,752.34968 520.55654,746.83531 522.75395,746.28596 C 526.99535,745.22561 528.67548,742.58931 533.36055,743.76058"
+       id="path3655"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 539.92654,745.78089 C 540.66677,745.96594 548.70002,733.2437 550.53314,732.14383 C 551.38566,731.63232 554.85543,729.98268 556.59406,729.11337"
+       id="path3657"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 559.11944,734.16413 C 560.2966,733.45783 556.49481,729.69784 549.01791,735.67936 C 545.04741,738.85576 539.81626,739.32518 536.39101,742.75043"
+       id="path3659"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 438.91129,751.8418 C 436.79585,753.53415 432.66194,754.6069 428.80976,755.37733 C 422.59951,756.61939 419.98485,754.36718 413.65747,754.36718"
+       id="path3661"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 417.69808,750.32657 C 416.95431,750.47533 425.55324,742.15493 418.20316,739.21489 C 415.93392,738.3072 415.12588,737.14777 414.16255,736.18444"
+       id="path3663"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 406.5864,746.79104 C 405.60352,746.39788 408.05019,735.65364 404.06102,733.65905 C 398.39723,730.82716 392.87659,727.6709 397.49503,723.05245"
+       id="path3665"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 400.02041,726.08291 C 401.74522,724.35811 393.82597,732.11481 395.47473,738.70982 C 396.95049,744.61286 399.31039,745.07086 403.55595,749.31642"
+       id="path3667"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 397.49503,743.2555 C 397.63073,743.79829 401.27724,733.1023 406.5864,734.16413 C 410.24155,734.89516 410.92941,731.90126 414.66762,732.6489"
+       id="path3669"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 429.31484,738.20474 C 437.33327,739.80843 441.58688,746.39518 450.02296,747.80119 C 451.87966,748.11064 453.72686,748.47463 455.5788,748.81134 C 460.19471,749.6506 461.42355,749.26238 465.68033,750.32657"
+       id="path3671"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 454.56865,757.90272 C 466.50239,760.07249 475.80591,763.45856 488.91384,763.45856"
+       id="path3673"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 498.51029,764.46871 C 498.90867,764.54114 520.11354,757.50099 523.7641,756.89256"
+       id="path3675"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 521.74379,755.37733 C 527.49549,756.4231 531.06542,758.91287 537.40116,758.91287"
+       id="path3677"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 529.82501,747.80119 C 537.96979,749.28206 547.43074,749.47101 555.5839,748.30627"
+       id="path3679"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 543.46207,742.75043 C 543.55545,742.7674 538.60851,748.92201 536.39101,753.35703 C 534.64688,756.84528 531.68514,758.3277 528.81486,756.89256"
+       id="path3681"
+       inkscape:export-filename="/home/peter/Desktop/path3683.png"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 556.59406,721.53722 C 555.67809,723.36917 556.08066,717.46333 555.5839,715.47631"
+       id="path3683"
+       inkscape:export-xdpi="75.26696"
+       inkscape:export-ydpi="75.26696" />
   </g>
 </svg>
