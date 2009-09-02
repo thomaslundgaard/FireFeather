@@ -20,6 +20,7 @@ class Game:
         self.state = self.STATE_RESTART
         self.enemies = []
         self.airballs = []
+        self.bgEffects = []
         self.effects = []
         self.feather = Feather(self)
         self.blower = Blower(self) 
@@ -31,11 +32,12 @@ class Game:
             self.state = self.STATE_PLAY
             self.enemies = []
             self.airballs = []
+            self.bgEffects = []
             self.effects = []
             self.feather = Feather(self)
             self.blower = Blower(self) 
             self.spawner = Spawnengine(self)
-            TextObject (self, "Lives: "+str(self.life), -1, (10, 10))
+            TextObject (self, "Lives: "+str(self.life)+"   Level: "+str(self.level), -1, (10, 10))
             self.gameLoop ()
 
     def gameLoop (self):
@@ -73,10 +75,15 @@ class Game:
             # Delete dead airballs
             self.airballs = [airball for airball in self.airballs if not airball.dead]
             
+            for bgEffect in self.bgEffects:
+                bgEffect.think(frametime)
+            
             for effect in self.effects:
                 effect.think(frametime)
             
             ## Draw game objects
+            for bgEffect in self.bgEffects:
+                bgEffect.draw()
             self.feather.draw()
             for enemy in self.enemies:
                 enemy.draw()
@@ -85,11 +92,6 @@ class Game:
                 airball.draw()
             for effect in self.effects:
                 effect.draw()
-
-            # Time for nest to appear?
-            if not self.spawner.spawnqueue: #spawnqueue empty
-                if not self.enemies:
-                    EndNest(self)
 
             pygame.display.flip()
             
@@ -125,3 +127,9 @@ class Game:
         
     def removeEffect (self,  effect):
         self.effects.remove (effect)
+        
+    def addBgEffect (self, effect):
+        self.bgEffects.append (effect)
+        
+    def removeBgEffect (self,  effect):
+        self.bgEffects.remove (effect)

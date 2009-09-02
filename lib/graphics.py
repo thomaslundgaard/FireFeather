@@ -114,7 +114,7 @@ class Feather (GraphicsBase):
         self.location.center = (self.game.res.cfg.screenWidth/2, self.game.res.cfg.screenHeight/2)
         self.velX = 0.0
         self.velY = 0.0
-        self.posX, self.posY = self.location.center
+        (self.posX, self.posY) = self.location.center
     def think(self,time):
         accelX = -self.velX * math.fabs(self.velX) * self.game.res.cfg.featherDragX
         self.velX += accelX * time
@@ -194,16 +194,35 @@ class EndNest (GraphicsBase):
         self.location = self.image.get_rect()
         self.location.left = self.game.res.cfg.screenWidth
         self.location.top = self.game.res.cfg.screenHeight * 0.75
-        self.posRight = self.location.right
-        self.game.addEffect(self)
+       # self.posRight = self.location.right
+        self.game.addBgEffect(self)
     def think(self,time):
         if self.location.right > self.game.res.cfg.screenWidth:
-            self.posRight -= self.game.res.cfg.nestSpeed * time
-            self.location.right = self.posRight
-        #collision with airball 
-        for airball in self.game.airballs:
-            if self.location.collidepoint(airball.location.center):
-                airball.dead = True
+            self.location.right -= self.game.res.cfg.nestSpeed * time
+            #self.location.right = self.posRight
+
+        hitRect = pygame.Rect (self.location.left + 24, self.location.top + 44, 130, 36)
+        if self.game.feather.location.colliderect(hitRect):
+            self.game.feather.velX *= -0.3
+            self.game.feather.velY *= -0.3
+            # move feather outside hitrect
+            clipRect = self.game.feather.location.clip (hitRect)
+            if clipRect.width < clipRect.height:
+                if clipRect.right-hitRect.left < hitRect.right-clipRect.left:
+                    self.game.feather.location.right = hitRect.left
+                else:
+                    self.game.feather.location.left = hitRect.right
+            else:
+                if clipRect.bottom-hitRect.top < hitRect.bottom-clipRect.top:
+                    self.game.feather.location.bottom = hitRect.top
+                else:
+                    self.game.feather.location.top = hitRect.botto
+            # Ugly hack: (in feather.think the pos variables are used, because location doesn't support floats)
+            (self.game.feather.posX, self.game.feather.posY) = self.game.feather.location.center
+#        #collision with airball 
+#        for airball in self.game.airballs:
+#            if self.location.collidepoint(airball.location.center):
+#                airball.dead = True
 
 class BottomFire (GraphicsBase):
     def __init__ (self,game):
@@ -215,7 +234,7 @@ class TextObject (GraphicsBase):
         GraphicsBase.__init__ (self,game)
         self.location = location
         self.ttl = ttl
-        self.image = self.game.res.font.render(text, True, (0, 0, 0))
+        self.image = self.game.res.font.render(text, True, (255, 255, 255))
         self.game.addEffect (self)
         
     def think (self,  time):

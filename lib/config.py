@@ -20,7 +20,7 @@ class Config:
         self.roundlengthMultiplier = 1.2
 
         #number of fireballs for a round
-        self.ballsBase = 10
+        self.ballsBase = 1
         self.ballsMultiplier = 2
         #ball velocity
         self.ballsVelBase = 0.1

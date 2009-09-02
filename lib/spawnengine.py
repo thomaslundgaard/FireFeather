@@ -12,8 +12,8 @@ class Spawnengine:
         balls = self.game.res.cfg.ballsBase + self.game.level * self.game.res.cfg.ballsMultiplier #fireballs to spawn
         roundlength = ( self.game.res.cfg.roundlengthBase +  \
                 self.game.level*self.game.res.cfg.roundlengthMultiplier)*1000 #roundlength in ms
-        
-        #Balls spawn randomly in a timeframe with three balls
+
+        # one ball can spawn within this timefram
         timeframe =  roundlength / balls 
         
         random.seed()
@@ -30,7 +30,7 @@ class Spawnengine:
             if self.spawnqueue[0] < now:
                 del self.spawnqueue[0]
                 posX = random.randint(0,self.game.res.cfg.screenWidth)
-                posY = -40
+                posY = -80
                 velY = self.game.res.cfg.ballsVelBase + random.random() * self.game.res.cfg.ballsVelGain
                 velY += self.game.level * self.game.res.cfg.ballsVelLevelBoost 
                 self.game.enemies.append(Fireball(self.game,posX,posY,velY))
