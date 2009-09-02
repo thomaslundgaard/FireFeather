@@ -12,6 +12,7 @@ class Resources:
         self.cfg = config.Config ()
         
     def load (self):
+        self.font = pygame.font.Font(os.path.join("fonts", "TerminusBold.ttf"),  26)
         self.menuBackground = pygame.image.load (os.path.join ("gfx", "menuBackground.png"))
         self.menuBackground = self.menuBackground.convert_alpha ()
         self.blowerMan = pygame.image.load (os.path.join ("gfx", "blowerMan.png"))

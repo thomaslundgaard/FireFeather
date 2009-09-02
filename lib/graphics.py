@@ -203,4 +203,20 @@ class BottomFire (GraphicsBase):
     def __init__ (self,game):
         GraphicsBase.__init__ (self,game)
         self.location = pygame.Rect (self.game.res.cfg.screenWidth/2, self.game.res.cfg.screenHeight-20)
+        
+class TextObject (GraphicsBase):
+    def __init__ (self, game, text, ttl, location):
+        GraphicsBase.__init__ (self,game)
+        self.location = location
+        self.ttl = ttl
+        self.image = self.game.res.font.render(text, True, (0, 0, 0))
+        self.game.addEffect (self)
+        
+    def think (self,  time):
+        if self.ttl != -1:
+            self.ttl -= time/1000
+            if self.ttl < 0:
+                self.game.removeEffect (self)
+        
+        
 

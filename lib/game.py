@@ -3,7 +3,7 @@
 
 import pygame
 import sys
-from graphics import Blower, Feather
+from graphics import Blower, Feather, TextObject, EndNest
 from spawnengine import Spawnengine
 from pygame.locals import *
 
@@ -34,6 +34,7 @@ class Game:
             self.feather = Feather(self)
             self.blower = Blower(self) 
             self.spawner = Spawnengine(self)
+            TextObject (self, "Lives: "+str(self.life), -1, (10, 10))
             self.gameLoop ()
 
     def gameLoop (self):
@@ -47,6 +48,8 @@ class Game:
                     self.state = self.STATE_GAME_OVER
                 else:
                     self.state = self.STATE_RESTART
+                break
+            else:
                 break
             
             frametime = float(self.clock.tick(90)) #maxfps
@@ -73,7 +76,6 @@ class Game:
             
             for effect in self.effects:
                 effect.think(frametime)
-            self.effects = [effect for effect in self.effects if not effect.dead]
             
             ## Draw game objects
             self.feather.draw()
@@ -113,3 +115,9 @@ class Game:
 
     def loseLife (self):
         self.state = self.STATE_LOSE_LIFE
+        
+    def addEffect (self, effect):
+        self.effects.append (effect)
+        
+    def removeEffect (self,  effect):
+        self.effects.remove (effect)
