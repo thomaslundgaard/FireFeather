@@ -49,8 +49,6 @@ class Game:
             self.feather.think(frametime)
             for enemy in self.enemies:
                 enemy.think(frametime)
-            # Delete dead enemies
-            self.enemies = [enemy for enemy in self.enemies if not enemy.dead]
 
             for airball in self.airballs:
                 airball.think(frametime)

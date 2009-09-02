@@ -148,7 +148,6 @@ class Feather (GraphicsBase):
 class Fireball (GraphicsBase):
     def __init__ (self,game,posX,posY,vel):
         GraphicsBase.__init__ (self,game)
-        self.dead = False
         self.game = game
         self.image = self.game.res.fireball
         self.location = pygame.Rect (self.game.res.cfg.screenWidth/2, self.game.res.cfg.screenHeight/2,0,0)
@@ -170,7 +169,9 @@ class Fireball (GraphicsBase):
 
         #die if below screen:
         if self.location.top > self.game.res.cfg.screenHeight:
-            self.dead = True
+            self.game.enemies.remove(self)
+            if not self.game.spawner.spawnqueue and not self.game.enemies:
+                EndNest(self.game)
         #collide with feather
         if self.game.feather.location.collidepoint(self.location.center):
             self.game.feather.hitbyfireball(self)
