@@ -200,7 +200,7 @@ class EndNest (GraphicsBase):
             self.posRight -= self.game.res.cfg.nestSpeed * time
             self.location.right = self.posRight
         #collision with airball 
-        for airball in self.game.airballs
+        for airball in self.game.airballs:
             if self.location.collidepoint(airball.location.center):
                 airball.dead = True
 
