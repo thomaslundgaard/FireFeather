@@ -28,6 +28,10 @@ class Blower (GraphicsBase):
         self.image = img.convert_alpha()
         self.direction = Blower.STOP
         self.shoot = False
+        self.dying = False
+    def hitByFireball (self,  fireball):
+        self.dying = True
+        
     def think (self, time):
         if (self.direction == Blower.LEFT):
             self.location.move_ip ( -self.game.res.cfg.blowerVelocity * time, 0)
@@ -170,6 +174,9 @@ class Fireball (GraphicsBase):
         #collide with feather
         if self.game.feather.location.collidepoint(self.location.center):
             self.game.feather.hitbyfireball(self)
+        # colide with blower man
+        if self.game.blower.location.collidepoint (self.location.center):
+            self.game.blower.hitByFireball(self)
 
 class EndNest (GraphicsBase):
     def __init__(self, game):

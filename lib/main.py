@@ -39,7 +39,7 @@ class Main:
             self.res.screen.blit (self.res.menuBackground, (0,0))
             pygame.display.flip ()
             
-            play = False
+            play  = False
             while not play:
                 for event in pygame.event.get():
                     if event.type == QUIT:
@@ -53,5 +53,5 @@ class Main:
 
             play = False                
             game = Game (1,self.res)
-            game.run ()
+            level = game.run ()
             del game
