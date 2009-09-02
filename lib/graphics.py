@@ -82,7 +82,7 @@ class Airball (GraphicsBase):
         self.posY -= math.sin(self.angle) * self.velocity
         self.location.center = (self.posX, self.posY)
 
-        if self.velocity < self.game.res.cfg:
+        if self.velocity < self.game.res.cfg.airballDieSpeed:
             self.dead = True
             return
         #collide with feather
@@ -141,7 +141,6 @@ class Feather (GraphicsBase):
         self.velX += (self.posX - airball.posX) * magnitudeX 
 
 
-
 class Fireball (GraphicsBase):
     def __init__ (self,game,posX,posY,vel):
         GraphicsBase.__init__ (self,game)
@@ -179,10 +178,11 @@ class EndNest (GraphicsBase):
         self.location = self.image.get_rect()
         self.location.left = self.game.res.cfg.screenWidth
         self.location.top = self.game.res.cfg.screenHeight * 0.75
+        self.posRight = self.location.right
     def think(self,time):
-        pass
-
-
+        if self.location.right > self.game.res.cfg.screenWidth:
+            self.posRight -= self.game.res.cfg.nestSpeed * time
+            self.location.right = self.posRight
 
 class BottomFire (GraphicsBase):
     def __init__ (self,game):
