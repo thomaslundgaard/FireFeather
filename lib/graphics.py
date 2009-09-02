@@ -86,7 +86,7 @@ class Airball (GraphicsBase):
         self.posY -= math.sin(self.angle) * self.velocity
         self.location.center = (self.posX, self.posY)
 
-        if self.velocity < 1.0e-2:
+        if self.velocity < self.game.res.cfg:
             self.dead = True
             return
         #collide with feather
@@ -137,7 +137,7 @@ class Feather (GraphicsBase):
         self.location = self.image.get_rect()
         self.location.center = (self.posX, self.posY)
     def hitbyfireball(self, fireball):
-        self.velY += fireball.velocity * self.game.res.cfg.featherFireballForce
+        self.velY = fireball.velocity + self.game.res.cfg.featherFireballHit # * self.game.res.cfg.featherFireballForce
     def hitbyairball(self, airball):
         magnitudeY = airball.velocity * self.game.res.cfg.featherBlowForceY
         magnitudeX = airball.velocity * self.game.res.cfg.featherBlowForceX
@@ -157,7 +157,6 @@ class Fireball (GraphicsBase):
         self.velocity = vel
         self.rotationspeed = (random.random() - 0.5) * 10
         self.angle = 0.0
-        self.collided = False
     def think(self,time):
         self.location.move_ip(0,self.velocity*time)
         oldcenter = self.location.center
@@ -174,13 +173,21 @@ class Fireball (GraphicsBase):
         if self.location.top > self.game.res.cfg.screenHeight:
             self.dead = True
         #collide with feather
-        if not self.collided:
-            if self.game.feather.location.collidepoint(self.location.center):
-                self.collided = True
-                self.game.feather.hitbyfireball(self)
-        # colide with man
+        if self.game.feather.location.collidepoint(self.location.center):
+            self.game.feather.hitbyfireball(self)
+        # colide with blower man
         if self.game.blower.location.collidepoint (self.location.center):
             self.game.blower.hitByFireball(self)
+
+class EndNest (GraphicsBase):
+    def __init__(self, game):
+        GraphicsBase.__init__ (self,game)
+        self.image = self.game.res.nest
+        self.location = self.image.get_rect()
+        self.location.left = self.game.res.cfg.screenWidth
+        self.location.top = self.game.res.cfg.screenHeight * 0.75
+    def think(self,time):
+        pass
 
 class BottomFire (GraphicsBase):
     def __init__ (self,game):
