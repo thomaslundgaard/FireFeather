@@ -3,7 +3,7 @@
 
 import pygame
 import sys
-from graphics import Blower, Feather
+from graphics import Blower, Feather, EndNest
 from spawnengine import Spawnengine
 from pygame.locals import *
 
@@ -70,6 +70,11 @@ class Game:
                 airball.draw()
             for effect in self.effects:
                 effect.draw()
+
+            # Time for nest to appear?
+            if not self.spawner.spawnqueue: #spawnqueue empty
+                if not self.enemies:
+                    EndNest(self)
 
             pygame.display.flip()
             

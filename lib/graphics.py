@@ -186,10 +186,15 @@ class EndNest (GraphicsBase):
         self.location.left = self.game.res.cfg.screenWidth
         self.location.top = self.game.res.cfg.screenHeight * 0.75
         self.posRight = self.location.right
+        self.game.addEffect(self)
     def think(self,time):
         if self.location.right > self.game.res.cfg.screenWidth:
             self.posRight -= self.game.res.cfg.nestSpeed * time
             self.location.right = self.posRight
+        #collision with airball 
+        for airball in self.game.airballs
+            if self.location.collidepoint(airball.location.center):
+                airball.dead = True
 
 class BottomFire (GraphicsBase):
     def __init__ (self,game):
