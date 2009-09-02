@@ -8,8 +8,11 @@ from spawnengine import Spawnengine
 from pygame.locals import *
 
 class Game:
+    STATE_PLAY = 0       # keep playing
+    STATE_RESTART = 1    # restarts level (or next level if self.level has been incremented)
+    STATE_GAME_OVER = 2  # retrun to menu
     def __init__(self, level, resources):
-        self.quit = False
+        self.state = self.STATE_PLAY
         self.level = level
         self.res = resources
         self.enemies = []
@@ -18,10 +21,20 @@ class Game:
         self.feather = Feather(self)
         self.blower = Blower(self) 
         self.clock = pygame.time.Clock()
-
         self.spawner = Spawnengine(self)
+
     def run(self):
-        while not self.quit:
+        while self.state == self.STATE_PLAY or self.state == self.STATE_RESTART:
+            self.state = self.STATE_PLAY
+            self.gameLoop ()
+            self.enemies = []
+            self.airballs = []
+            self.effects = []
+            self.feather = Feather(self)
+            self.blower = Blower(self) 
+
+    def gameLoop (self):
+        while self.state == self.STATE_PLAY:
             frametime = float(self.clock.tick(90)) #maxfps
             
             # Clear screen
@@ -59,13 +72,14 @@ class Game:
                 effect.draw()
 
             pygame.display.flip()
+            
     def handleInput(self):
         for event in pygame.event.get():
             if event.type == QUIT:
                 sys.exit(0)
             elif event.type == KEYDOWN:
                 if event.key == K_ESCAPE:
-                    self.quit = True
+                    self.state = self.STATE_GAME_OVER
                     return
                 else:
                     if self.res.cfg.keyLeft == event.key:
