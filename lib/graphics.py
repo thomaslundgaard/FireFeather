@@ -31,6 +31,7 @@ class Blower (GraphicsBase):
         self.dying = False
     def hitByFireball (self,  fireball):
         self.dying = True
+        self.game.loseLife ()
         
     def think (self, time):
         if (self.direction == Blower.LEFT):
@@ -136,8 +137,14 @@ class Feather (GraphicsBase):
         self.image = pygame.transform.rotozoom(self.game.res.feather,- self.velX * self.game.res.cfg.featherTilt,1)
         self.location = self.image.get_rect()
         self.location.center = (self.posX, self.posY)
+        
+        # die if below screen
+        if self.location.centery > self.game.res.cfg.screenHeight:
+            self.game.loseLife ()
+        
     def hitbyfireball(self, fireball):
         self.velY = fireball.velocity + self.game.res.cfg.featherFireballHit # * self.game.res.cfg.featherFireballForce
+ 
     def hitbyairball(self, airball):
         magnitudeY = airball.velocity * self.game.res.cfg.featherBlowForceY
         magnitudeX = airball.velocity * self.game.res.cfg.featherBlowForceX
@@ -157,6 +164,7 @@ class Fireball (GraphicsBase):
         self.velocity = vel
         self.rotationspeed = (random.random() - 0.5) * 10
         self.angle = 0.0
+        
     def think(self,time):
         self.location.move_ip(0,self.velocity*time)
         oldcenter = self.location.center

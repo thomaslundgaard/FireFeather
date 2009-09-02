@@ -10,31 +10,45 @@ from pygame.locals import *
 class Game:
     STATE_PLAY = 0       # keep playing
     STATE_RESTART = 1    # restarts level (or next level if self.level has been incremented)
-    STATE_GAME_OVER = 2  # retrun to menu
+    STATE_GAME_OVER = 2  # return to menu
+    STATE_LOSE_LIFE = 3  # lose a life and then restart level
     def __init__(self, level, resources):
-        self.state = self.STATE_PLAY
-        self.level = level
         self.res = resources
+        self.level = level
+        self.life = 3
+        self.state = self.STATE_RESTART
         self.enemies = []
         self.airballs = []
         self.effects = []
         self.feather = Feather(self)
         self.blower = Blower(self) 
-        self.clock = pygame.time.Clock()
         self.spawner = Spawnengine(self)
+        self.clock = pygame.time.Clock()
 
     def run(self):
-        while self.state == self.STATE_PLAY or self.state == self.STATE_RESTART:
+        while self.state == self.STATE_RESTART:
             self.state = self.STATE_PLAY
-            self.gameLoop ()
             self.enemies = []
             self.airballs = []
             self.effects = []
             self.feather = Feather(self)
             self.blower = Blower(self) 
+            self.spawner = Spawnengine(self)
+            self.gameLoop ()
 
     def gameLoop (self):
-        while self.state == self.STATE_PLAY:
+        while True:
+            # check state
+            if self.state == self.STATE_PLAY:
+                pass    # Continue with gameLoop
+            elif self.state == self.STATE_LOSE_LIFE:
+                self.life -= 1
+                if self.life <= 0:
+                    self.state = self.STATE_GAME_OVER
+                else:
+                    self.state = self.STATE_RESTART
+                break
+            
             frametime = float(self.clock.tick(90)) #maxfps
             
             # Clear screen
@@ -60,7 +74,7 @@ class Game:
             for effect in self.effects:
                 effect.think(frametime)
             self.effects = [effect for effect in self.effects if not effect.dead]
-
+            
             ## Draw game objects
             self.feather.draw()
             for enemy in self.enemies:
@@ -96,3 +110,6 @@ class Game:
             elif event.type == MOUSEBUTTONDOWN:
                 if event.button == 1:
                     self.blower.shoot = True
+
+    def loseLife (self):
+        self.state = self.STATE_LOSE_LIFE

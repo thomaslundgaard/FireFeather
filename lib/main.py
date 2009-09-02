@@ -53,5 +53,4 @@ class Main:
 
             play = False                
             game = Game (1,self.res)
-            level = game.run ()
-            del game
+            game.run ()
