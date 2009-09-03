@@ -21,7 +21,7 @@ class Spawnengine:
         while balls > 0:
             frameend = framestart + timeframe
             balls -= 1
-            self.spawnqueue.append(random.randint(framestart,frameend))
+            self.spawnqueue.append(random.randint(int(framestart),int(frameend)))
             framestart += timeframe
 
     def think(self,time):
