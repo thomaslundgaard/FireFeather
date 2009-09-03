@@ -194,9 +194,10 @@ class EndNest (GraphicsBase):
         self.location = self.image.get_rect()
         self.location.left = self.game.res.cfg.screenWidth
         self.location.top = self.game.res.cfg.screenHeight * 0.75
+        self.featherInNestTime = 0
        # self.posRight = self.location.right
         self.game.addBgEffect(self)
-    def think(self,time):
+    def think(self, time):
         if self.location.right > self.game.res.cfg.screenWidth:
             self.location.right -= self.game.res.cfg.nestSpeed * time
             #self.location.right = self.posRight
@@ -215,14 +216,24 @@ class EndNest (GraphicsBase):
             else:
                 if clipRect.bottom-hitRect.top < hitRect.bottom-clipRect.top:
                     self.game.feather.location.bottom = hitRect.top
+                    self.featherInNestTime += time
                 else:
-                    self.game.feather.location.top = hitRect.botto
+                    self.game.feather.location.top = hitRect.bottom
             # Ugly hack: (in feather.think the pos variables are used, because location doesn't support floats)
             (self.game.feather.posX, self.game.feather.posY) = self.game.feather.location.center
 #        #collision with airball 
 #        for airball in self.game.airballs:
 #            if self.location.collidepoint(airball.location.center):
 #                airball.dead = True
+        if self.featherInNestTime > 0 and self.game.feather.velX < 1 and self.game.feather.velY < 1:
+            self.featherInNestTime += time
+        else:
+            self.featherInNestTime = 0
+
+        if self.featherInNestTime > 1000:
+            self.game.level += 1
+            self.game.state = self.game.STATE_RESTART
+            
 
 class BottomFire (GraphicsBase):
     def __init__ (self,game):
