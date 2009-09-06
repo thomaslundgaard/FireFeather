@@ -10,6 +10,24 @@ class GraphicsBase:
     def draw (self):
         self.game.res.screen.blit (self.image, self.location)
 
+class DieBlower(GraphicsBase):
+    def __init__(self,game, location):
+        GraphicsBase.__init__(self,game)
+        self.animation = self.game.res.blowerManDie
+        self.animation.reset()
+        self.image = self.animation.getFrame()
+        self.direction = Blower.STOP
+        self.location = self.image.get_rect()
+        self.location.midbottom = location
+    def think(self,time):
+        self.image = self.animation.getFrame()
+        if not self.image:
+            self.image = pygame.Surface((1,1)).convert_alpha()
+            self.image.fill((0,0,0,0))
+            self.game.loseLife()
+    def hitByFireball (self,  fireball):
+        pass
+
 class Blower (GraphicsBase):
     STOP = 0
     LEFT = 1
@@ -29,11 +47,18 @@ class Blower (GraphicsBase):
         self.direction = Blower.STOP
         self.shoot = False
         self.dying = False
+        self.lastshot = 0
     def hitByFireball (self,  fireball):
+        if fireball:
+            hitrect = self.game.res.blowerMan.get_rect()
+            hitrect.midbottom = self.location.midbottom
+            if not hitrect.collidepoint(fireball.location.center):
+                return
         self.dying = True
-        self.game.loseLife ()
+        self.game.blower = DieBlower(self.game, self.location.midbottom)
         
     def think (self, time):
+        
         if (self.direction == Blower.LEFT):
             self.location.move_ip ( -self.game.res.cfg.blowerVelocity * time, 0)
         elif (self.direction == Blower.RIGHT):
@@ -53,6 +78,7 @@ class Blower (GraphicsBase):
     
         # if we are shooting, create new airball
         if self.shoot == True:
+            self.lastshot = pygame.time.get_ticks()
             airballCenter = ( self.location.centerx + self.blowerManLeft2Fix + ((self.blowerGunFix2End+10)*math.cos(self.angle)) ,\
                                 self.location.bottom - self.blowerManButtom2Fix - ((self.blowerGunFix2End+10)*math.sin(self.angle)) )
             newAirball = Airball (self.game, airballCenter, self.angle)
@@ -63,8 +89,12 @@ class Blower (GraphicsBase):
         self.image.fill ((0,0,0,0))
         if ( self.angle > math.pi/2 ):
             blowerImg = self.game.res.blowerManLeft
+            if pygame.time.get_ticks() - self.lastshot < 100:
+                blowerImg = self.game.res.blowerManBlinkLeft
         else:
             blowerImg = self.game.res.blowerMan
+            if pygame.time.get_ticks() - self.lastshot < 100:
+                blowerImg = self.game.res.blowerManBlink
         self.image.blit (blowerImg, ( (Blower.imageWidth-self.game.res.blowerMan.get_width ())/2, (Blower.imageHeight-self.game.res.blowerMan.get_height()) ))
         rotatedGun = pygame.transform.rotozoom (self.game.res.blowerGun, math.degrees(self.angle), 1)
         rotatedRect = rotatedGun.get_rect()
@@ -140,7 +170,8 @@ class Feather (GraphicsBase):
         
         # die if below screen
         if self.location.centery > self.game.res.cfg.screenHeight:
-            self.game.loseLife ()
+            self.game.blower.hitByFireball(None)
+            #self.game.loseLife ()
         
     def hitbyfireball(self, fireball):
         self.velY = fireball.velocity + self.game.res.cfg.featherFireballHit # * self.game.res.cfg.featherFireballForce
@@ -197,6 +228,8 @@ class EndNest (GraphicsBase):
         self.featherInNestTime = 0
        # self.posRight = self.location.right
         self.game.addBgEffect(self)
+        if self.game.level == 1:
+            TextObject (self.game, "Land the feather in the nest",3,(20,self.game.res.cfg.screenHeight/2))
     def think(self, time):
         if self.location.right > self.game.res.cfg.screenWidth:
             self.location.right -= self.game.res.cfg.nestSpeed * time

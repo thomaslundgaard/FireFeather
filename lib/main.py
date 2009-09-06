@@ -13,17 +13,21 @@ class Main:
         self.res = resources.Resources ()
         pygame.init()
             
-        #if self.cfg.sound and pygame.mixer:
+        #if self.res.cfg.sound and pygame.mixer:
             #pygame.mixer.pre_init(22100, -16, 16, 2048)
-            #pygame.mixer.music.load(os.path.join('media','theme.ogg'))
-            #pygame.mixer.music.play(-1)
+        #    pygame.mixer.music.load(os.path.join('snd','theme.ogg'))
+        #    pygame.mixer.music.play(-1)
         #if not self.cfg.sound:
-            #pygame.mixer.quit()
+        #    pygame.mixer.quit()
 
         pygame.mouse.set_visible(True)
         pygame.display.set_caption("FireFeather")
+        if self.res.cfg.fullscreen:
+            scrFlag = FULLSCREEN
+        else:
+            scrFlag = 0
         self.res.screen = pygame.display.set_mode((self.res.cfg.screenWidth, \
-            self.res.cfg.screenHeight),0)
+            self.res.cfg.screenHeight),scrFlag)
 
     def splash (self):
         splashImage = pygame.image.load (os.path.join ("gfx", "splash.png"))
@@ -31,7 +35,7 @@ class Main:
         self.res.screen.blit (splashImage, (0,0))
         pygame.display.flip ()
         self.res.load ()
-        #time.sleep(1)
+        time.sleep(1)
         
     def menu (self):
         while True:

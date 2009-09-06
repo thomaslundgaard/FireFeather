@@ -38,6 +38,10 @@ class Game:
             self.blower = Blower(self) 
             self.spawner = Spawnengine(self)
             TextObject (self, "Lives: "+str(self.life)+"   Level: "+str(self.level), -1, (10, 10))
+            if self.level == 1:
+                TextObject (self, "Keep the feather alive!",3,(20,self.res.cfg.screenHeight/2 - 40))
+                TextObject (self, "Avoid the rocks",3,(20,self.res.cfg.screenHeight/2 + 40))
+                TextObject (self, "Use A & D to move, mouse to shoot",3,(20,self.res.cfg.screenHeight/2))
             self.gameLoop ()
 
     def gameLoop (self):

@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
 
 from pygame.locals import *
+import sys
 
 class Config:
     def __init__ (self):
+        self.fullscreen = False
+        self.sound = True
+        for word in sys.argv:
+            if word == '--fullscreen':
+                self.fullscreen = True
+            elif word == '--nosound':
+                self.sound = False
         self.keyLeft = K_a
         self.keyRight = K_d
         self.screenWidth = 640
@@ -20,11 +28,11 @@ class Config:
         self.roundlengthMultiplier = 1.2
 
         #number of fireballs for a round
-        self.ballsBase = 10
-        self.ballsMultiplier = 2
+        self.ballsBase = 8
+        self.ballsMultiplier = 1.5
         #ball velocity
         self.ballsVelBase = 0.1
-        self.ballsVelGain = 0.02
+        self.ballsVelGain = 0.01
         self.ballsVelLevelBoost = 0.02
 
         #feather parameters
