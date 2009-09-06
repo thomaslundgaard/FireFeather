@@ -35,3 +35,8 @@ class Resources:
         self.fireball = self.fireball.convert_alpha ()
         self.nest = pygame.image.load(os.path.join('gfx','nest.png'))
         self.nest = self.nest.convert_alpha ()
+
+        if self.cfg.sound:
+            self.sndBlow = pygame.mixer.Sound(os.path.join('snd','blower1.ogg'))
+            self.sndDie = pygame.mixer.Sound(os.path.join('snd','die.ogg'))
+            self.sndWin = pygame.mixer.Sound(os.path.join('snd','win.ogg'))

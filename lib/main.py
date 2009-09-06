@@ -13,12 +13,8 @@ class Main:
         self.res = resources.Resources ()
         pygame.init()
             
-        #if self.res.cfg.sound and pygame.mixer:
-            #pygame.mixer.pre_init(22100, -16, 16, 2048)
-        #    pygame.mixer.music.load(os.path.join('snd','theme.ogg'))
-        #    pygame.mixer.music.play(-1)
-        #if not self.cfg.sound:
-        #    pygame.mixer.quit()
+        if not self.res.cfg.sound:
+            pygame.mixer.quit()
 
         pygame.mouse.set_visible(True)
         pygame.display.set_caption("FireFeather")

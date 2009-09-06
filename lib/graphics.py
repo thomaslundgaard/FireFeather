@@ -56,6 +56,8 @@ class Blower (GraphicsBase):
                 return
         self.dying = True
         self.game.blower = DieBlower(self.game, self.location.midbottom)
+        if self.game.res.cfg.sound:
+            self.game.res.sndDie.play()
         
     def think (self, time):
         
@@ -79,6 +81,8 @@ class Blower (GraphicsBase):
         # if we are shooting, create new airball
         if self.shoot == True:
             self.lastshot = pygame.time.get_ticks()
+            if self.game.res.cfg.sound:
+                self.game.res.sndBlow.play()
             airballCenter = ( self.location.centerx + self.blowerManLeft2Fix + ((self.blowerGunFix2End+10)*math.cos(self.angle)) ,\
                                 self.location.bottom - self.blowerManButtom2Fix - ((self.blowerGunFix2End+10)*math.sin(self.angle)) )
             newAirball = Airball (self.game, airballCenter, self.angle)
@@ -266,6 +270,8 @@ class EndNest (GraphicsBase):
         if self.featherInNestTime > 1000:
             self.game.level += 1
             self.game.state = self.game.STATE_RESTART
+            if self.game.res.cfg.sound:
+                self.game.res.sndWin.play()
             
 
 class BottomFire (GraphicsBase):

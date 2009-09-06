@@ -33,7 +33,7 @@ class Config:
         #ball velocity
         self.ballsVelBase = 0.1
         self.ballsVelGain = 0.01
-        self.ballsVelLevelBoost = 0.02
+        self.ballsVelLevelBoost = 0.014
 
         #feather parameters
         self.featherGForce = 0.00004

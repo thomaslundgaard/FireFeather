@@ -3,6 +3,8 @@ Licensed under GPLv3
 
 A game participating in the PyWeek competetion #9
 
-Developed by Peter B Jørgensen and Thomas Lundgaard
+Developed by Peter B Jørgensen, Thomas Lundgaard and Asger Bjørn Jørgensen (some graphics)
+
+Requires pygame to run. Commandline options are --fullscreen and --nosound
 
 
